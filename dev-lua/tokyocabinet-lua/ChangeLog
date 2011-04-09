@@ -1,0 +1,10 @@
+# ChangeLog for dev-lua/tokyocabinet-lua
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*tokyocabinet-lua-1.10 (09 Apr 2011)
+
+  09 Apr 2011; Clif Bratcher <cebratcher@gmail.com>,
+  +tokyocabinet-lua-1.10.ebuild:
+  initial ebuild
+
