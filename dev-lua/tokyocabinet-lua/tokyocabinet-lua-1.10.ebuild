@@ -18,3 +18,7 @@ RDEPEND="${DEPEND}"
 
 SRC_TEST="do"
 SRC_URI="http://fallabs.com/tokyocabinet/luapkg/${P}.tar.gz"
+
+src_install() {
+	emake DESTDIR="${D}" install || die "Install failed"
+}
